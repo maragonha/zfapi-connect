@@ -28,7 +28,7 @@ Para a valorização da segurança de seus dados, utilizamos o protocolo oAuth 2
 Para retornar o Bearer para acessar a API, se faz uma requisição POST para a rota: 
 
 ```
-http://127.0.0.1:8000/oauth/token
+http://app.zenfisio.com/oauth/token
 ```
 
 Mandando no corpo os seguintes dados:
@@ -56,7 +56,7 @@ Exemplo de retorno:
 Para retornar todos os pacientes da entidade da API, deve ser feita uma requisição GET para a rota:
 
 ```
-http://127.0.0.1:8000/api/v1/patients
+http://app.zenfisio.com/api/v1/patients
 ```
 
 Exemplo de retorno:
@@ -120,7 +120,7 @@ Exemplo de retorno:
 Para retornar todos os atendimentos da entidade da API, deve ser feita uma requisição GET para a rota:
 
 ```
-http://127.0.0.1:8000/api/v1/appointments
+http://app.zenfisio.com/api/v1/appointments
 ```
 
 
@@ -213,7 +213,7 @@ Exemplo de retorno:
 Para retornar todos os atendimentos da entidade da API, deve ser feita uma requisição GET para a rota:
 
 ```
-http://127.0.0.1:8000/api/v1/movements
+http://app.zenfisio.com/api/v1/movements
 ```
 
 Importante ressaltar que o retorno aqui é paginado, dando 25 registros por página.
