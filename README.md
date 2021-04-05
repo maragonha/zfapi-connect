@@ -55,7 +55,9 @@ Exemplo de retorno:
 
 Para retornar todos os pacientes da entidade da API, deve ser feita uma requisição GET para a rota:
 
+```
 http://127.0.0.1:8000/api/v1/patients
+```
 
 Exemplo de retorno:
 
