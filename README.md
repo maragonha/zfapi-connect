@@ -1,21 +1,13 @@
-This repository is intended to show you how to connect to the ZenFisio API using Auth2 as the authentication standard.
-
----
-## Requirements
+## Necessidades
 
 1. PHP 7 >=
 2. Composer
+## Passos
 
----
-## Steps
+Siga os passos abaixo para testar a API
 
-Follow the steps below to test your API:
-
-1. Clone this project
-2. With the terminal enter the folder and execute the command "composer install"
-3. Override API access data at beginning of index.php file
-
-
+1. Clone o projeto
+2. Em um terminal, com o composer instalado, execute o comando "composer install"
 
 
 AUTENTICAÇÃO USANDO OAUTH2
