@@ -112,7 +112,7 @@ Exemplo de retorno:
 Para retornar todos os atendimentos da entidade da API, deve ser feita uma requisição GET para a rota:
 
 ```
-https://app.zenfisio.com/api/v1/appointments
+https://app.zenfisio.com/api/v1/appointments?start_date={data_inicial}&end_date={data_final}
 ```
 
 
